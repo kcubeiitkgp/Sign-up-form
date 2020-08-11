@@ -1,0 +1,109 @@
+html {
+    background-color: #E4E9FD;
+    background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+    min-height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: #A683E3;
+}
+
+a:hover {
+    background-color: #A683E3;
+    color: black;
+    font-size: 17px;
+}
+
+form {
+    padding: 15px;
+}
+
+
+h1 {
+    text-align: center;
+    margin: 6%;
+}
+
+input {
+    padding: 5px;
+    border: 2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 60%;
+}
+
+input:focus {
+    border-color: #333;
+}
+
+input[type=submit] {
+    padding: 5px 15px;
+    background: #ccc;
+    border: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 30%;
+}
+
+input[type=submit]:hover {
+    padding: 7px 19px;
+    background: #A683E3;
+    border: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+}
+
+
+.button {
+    padding: 4px;
+    margin: 10px;
+    background-color: Transparent;
+
+}
+
+.bottom {
+    font-size: 15px;
+}
+
+
+.checkbox {
+    font-size: 10px;
+    margin: 2px;
+
+
+}
+
+.input {
+    margin: 5px;
+    padding: 5px;
+    width: 80%;
+
+}
+
+.input:hover {
+    padding: 7px;
+}
+
+.sign-up {
+    text-align: center;
+    padding: 5px;
+    width: 150px;
+    height: 40%;
+    border: 3px solid black;
+    background-color: white;
+    transition: border-width 0.4s linear;
+    margin: 0 auto;  
+    
+
+min-width:300px;
+}
+.sign-up:hover {
+    border-width: 5px;
+
+
+}
